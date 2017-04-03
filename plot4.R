@@ -15,7 +15,7 @@ smallDat <- dat[goodCols == TRUE, ]
 smallDat$Global_active_power <- as.numeric(smallDat$Global_active_power)
 smallDat$Sub_metering_1 <- as.numeric(smallDat$Sub_metering_1)
 smallDat$Sub_metering_2 <- as.numeric(smallDat$Sub_metering_2)
-smallDat$Sub_metering_3 <- as.numeric(smallDat$Sub_metering_3=)
+smallDat$Sub_metering_3 <- as.numeric(smallDat$Sub_metering_3)
 
 cleanTime <- paste(smallDat$Date, smallDat$Time)
 cleanTime <- dmy_hms(cleanTime)
